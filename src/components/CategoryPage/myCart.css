@@ -1,0 +1,137 @@
+.cart-main-container{
+  height: 100vh;
+}
+.cart-sub-container{
+  width: 1650px;
+  height: 2800px;
+  /* border: 5px solid black; */
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.cart-h1{
+  font-family: cursive;
+}
+.cart-hr{
+  margin-left: 720px;
+}
+.cart-card{
+  /* border: 5px solid black; */
+  height: 2500px;
+  width: 1600px;
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+ 
+}
+.Cart-checkout-hr{
+  width: 1200px;
+  
+}
+.myCart-main-container{
+    height: 500px;
+    /* background-color: black; */
+}
+.myCart-sub-container{
+    border:5px solid white;
+    width: 300px;
+    height: 550px;
+   margin-top: 20px;
+   margin-left: 20px;
+   background-color: #EBECF0;
+  }
+
+.myCart-image{
+    border:2px solid black;
+    margin-top: 20px;
+   
+    display: block;
+}
+.myCart-h2{
+    margin-top: 20px;
+
+}
+.myCart-p{
+    font-size: 20px;
+    font-family: cursive;
+    
+}
+
+ .descOne {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+    margin-left: 20px;
+  }
+.overlayOne {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+     color: #f1f1f1; 
+    width: 250px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+
+  }
+   .descOne:hover .overlayOne {
+    opacity: 1;
+  } 
+
+  .mycart-button {
+    /* padding: 15px 25px; */
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    height: 30px;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .icons{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  .myCart-button:active {
+    
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .checkout-button{
+      /* padding: 15px 25px; */
+      font-size: 18px;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      color: #fff;
+      background-color: green;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+      height: 40px;
+      width: 200px;
+      margin-bottom: 30px;
+  }
+  .checkout-button:active {
+    
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .w3-table-all{
+    width: 700px;
+    margin-top: 50px;
+    margin-left: 400px;
+  }

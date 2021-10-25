@@ -1,0 +1,20 @@
+.brand-mainContainer{
+    /* border:5px solid black; */
+    height: 300px;
+}
+.brand-subContainer{
+    /* border:2px solid black; */
+    height: 230px;
+    margin-top: 20px;
+}
+.brand-heading{
+    /* text-decoration: underline;
+    text-decoration-color: gray;
+    text-decoration-thickness: 2px; */
+    margin-top: 20px;
+    font-family:cursive;
+}
+.brand-hr{
+    margin-left: 790px;
+    width: 120px;
+}

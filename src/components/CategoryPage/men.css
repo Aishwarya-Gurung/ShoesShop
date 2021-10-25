@@ -1,0 +1,26 @@
+.Men-main-container{
+    height: 100vh;
+}
+.men-sub-container{
+    width: 1650px;
+    height: 2550px;
+    /* border: 5px solid black; */
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.men-h1{
+    font-family: cursive;
+}
+.men-hr{
+    margin-left: 720px;
+}
+.men-card{
+    /* border: 5px solid black; */
+    height: 2500px;
+    width: 1600px;
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+   
+}

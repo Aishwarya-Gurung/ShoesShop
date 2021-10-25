@@ -1,0 +1,26 @@
+.someProducts-main-container{
+    /* border: 5px solid black; */
+    height: 1200px;
+    width: 1650px;
+    margin-left: 20px;
+    margin-top: 130px;
+
+}
+.someProducts-h1{
+    font-family: cursive;
+  
+}
+.someProducts-hr{
+    width: 150px;
+    margin-left: 750px;
+}
+.some-card{
+    /* border: 5px solid black; */
+    height: 930px;
+    width: 1600px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   
+}

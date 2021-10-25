@@ -1,0 +1,40 @@
+/* .navbar-custom {
+    background-color: black;
+} */
+/* .nav-link{
+    margin-left: 50px;
+}
+
+.dropdown-menu{
+    background-color: black;
+} */
+
+.nav-link{
+    color: white !important;
+    margin-left: 70px;
+}
+/* .d-flex{
+    margin-right: 600px;
+} */
+.form-control{
+    width: 300px;
+}
+.btn{
+    width: 100px;
+    border-color: white;
+    color: white;
+}
+.btn:hover{
+    color: black;
+    background-color: red;
+}
+.bi{
+  margin-right: 10px;
+ 
+}
+.navbar-nav{
+    margin-left: 500px;
+}
+.d-inline-block{
+    margin-left: 50px;
+}
